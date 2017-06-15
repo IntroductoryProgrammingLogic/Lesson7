@@ -1,0 +1,15 @@
+{
+  "name": "lesson7",
+  "version": "0.0.1",
+  "description": "Demonstrationg file I/O",
+  "main": "Code.js",
+  "dependencies": {
+    "readline-sync": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hbates@northmen.org",
+  "license": "ISC"
+}
