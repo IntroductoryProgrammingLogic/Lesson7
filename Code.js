@@ -12,7 +12,6 @@ const IO = require('fs');  // For file I/O
 let continueResponse;
 let numStudents, menuChoice;
 let students = [], rewardStudents = [];
-const ADD_STUDENT = 0, DELETE_STUDENT = 1;
 
 /**
  * @method
@@ -25,6 +24,7 @@ function main() {
         setContinueResponse();
     }
     while (continueResponse === 1) {
+		const ADD_STUDENT = 0, DELETE_STUDENT = 1;
         setMenuChoice();
         switch (menuChoice) {
             case 1: setNumStudents(); modifyStudents(ADD_STUDENT);
@@ -257,5 +257,5 @@ function writeStudents() {
  to allow the ability to read the student data from a file on permanent storage as well as save data to the file for
  permanent storage.
 
- Topics:  File I/O
+ Topics:  File I/O, screen clearing, menus
  */
